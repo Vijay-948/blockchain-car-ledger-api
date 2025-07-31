@@ -1,0 +1,58 @@
+#spring.application.name=api-gateway-service
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: api-gateway-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/api_gateway_db
+    username: postgres
+    password: Vijay@948
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true
+    groups:
+      enabled: true
+  cache:
+    disabled: true
+
+  group-configs:
+    - group: vechile-service
+      paths-to-match: /vechile-service
+      display-name: Vehicle Service
+      url: /vechile-service/v3/api-docs
+
+    - group: service-track
+      paths-to-match: /service-track/**
+      display-name: Service Tracker
+      url: /service-track/v3/api-docs
+
+    - group: API-gateway
+      paths-to-match: /api-gateway-service/**
+      display-name: API Gateway
+      url: /api-gateway-service/v3/api-docs
+
+    - group: Blockchain-gateway
+      paths-to-match: /blockchain-gateway-service/**
+      display-name: Blockchain Gateway
+      url: /blockchain-gateway-service/v3/api-docs
+
+    - group: common-lib
+      paths-to-match: /common-lib/**
+      display-name: Common Lib
+      url: /common-lib/v3/api-docs
+
+

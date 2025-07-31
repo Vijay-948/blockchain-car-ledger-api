@@ -1,0 +1,103 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.carledger:blockchain-gateway-service:jar:0.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 93, column 12
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ line 105, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------< com.carledger:blockchain-gateway-service >--------------
+[INFO] Building blockchain-gateway-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.0-M1:run (default-cli) > test-compile @ blockchain-gateway-service >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ blockchain-gateway-service ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ blockchain-gateway-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ blockchain-gateway-service ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\KogilathotaVijayRedd\OneDrive - People Tech Group Inc\Desktop\BlockChain\carledger-api\blockchain-gateway-service\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ blockchain-gateway-service ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.0-M1:run (default-cli) < test-compile @ blockchain-gateway-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.0-M1:run (default-cli) @ blockchain-gateway-service ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-07-31T17:33:53.934+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .e.b.BlockchainGatewayServiceApplication : Starting BlockchainGatewayServiceApplication using Java 17.0.12 with PID 34700 (C:\Users\KogilathotaVijayRedd\OneDrive - People Tech Group Inc\Desktop\BlockChain\carledger-api\blockchain-gateway-service\target\classes started by KogilathotaVijayRedd in C:\Users\KogilathotaVijayRedd\OneDrive - People Tech Group Inc\Desktop\BlockChain\carledger-api\blockchain-gateway-service)
+2025-07-31T17:33:53.938+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .e.b.BlockchainGatewayServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2025-07-31T17:33:54.001+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-31T17:33:54.002+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-31T17:33:55.087+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-31T17:33:55.112+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-07-31T17:33:56.262+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-07-31T17:33:56.283+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-31T17:33:56.283+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-07-31T17:33:56.385+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-31T17:33:56.387+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2384 ms
+2025-07-31T17:33:56.719+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-31T17:33:56.822+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-07-31T17:33:56.878+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-31T17:33:57.515+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-31T17:33:57.578+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-31T17:33:57.929+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@499c492d
+2025-07-31T17:33:57.931+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-31T17:33:57.984+05:30  WARN 34700 --- [blockchain-gateway-service] [  restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-31T17:33:58.541+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-31T17:33:58.551+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-31T17:33:58.812+05:30  WARN 34700 --- [blockchain-gateway-service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-31T17:34:00.016+05:30  WARN 34700 --- [blockchain-gateway-service] [  restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ed145105-26d0-4a08-b3af-1010cbef3dc8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-07-31T17:34:00.285+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@62761905, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@936d7c0, org.springframework.security.web.context.SecurityContextHolderFilter@459c1310, org.springframework.security.web.header.HeaderWriterFilter@13615f18, org.springframework.web.filter.CorsFilter@3bcb2ee9, org.springframework.security.web.csrf.CsrfFilter@5d75f2bc, org.springframework.security.web.authentication.logout.LogoutFilter@15155bb8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6db4fe92, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@64758ca, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9d2febd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ce4e9f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a0f18b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24e75799, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b3e70b3, org.springframework.security.web.access.ExceptionTranslationFilter@755bf16e, org.springframework.security.web.access.intercept.AuthorizationFilter@1d9ceb19]
+2025-07-31T17:34:00.367+05:30  WARN 34700 --- [blockchain-gateway-service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2025-07-31T17:34:00.406+05:30  WARN 34700 --- [blockchain-gateway-service] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-31T17:34:00.410+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-31T17:34:00.416+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-31T17:34:00.429+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-31T17:34:00.457+05:30  INFO 34700 --- [blockchain-gateway-service] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-31T17:34:00.508+05:30 ERROR 34700 --- [blockchain-gateway-service] [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  12.439 s
+[INFO] Finished at: 2025-07-31T17:34:00+05:30
+[INFO] ------------------------------------------------------------------------
